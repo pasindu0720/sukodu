@@ -84,7 +84,7 @@ A feature-rich Sudoku game built with Python and Tkinter, featuring a beautiful 
 
 1. **Clone or Download the Repository**
    ```bash
-   git clone https://github.com/yourusername/sudoku-game.git
+   git clone https://github.com/pasindu0720/sudoku-game.git
    cd sudoku-game
    ```
 
