@@ -70,75 +70,8 @@ A feature-rich Sudoku game built with Python and Tkinter, featuring a beautiful 
 │  _  _  _  │  _  8  _  │  _  7  9│
 └─────────────────────────────────┘
    [1][2][3][4][5][6][7][8][9]
-```
 
----
 
-## 🚀 Installation
-
-### Prerequisites
-- Python 3.7 or higher
-- tkinter (usually comes pre-installed with Python)
-
-### Steps
-
-1. **Clone or Download the Repository**
-   ```bash
-   git clone https://github.com/pasindu0720/sudoku-game.git
-   cd sudoku-game
-   ```
-
-2. **Verify Python Installation**
-   ```bash
-   python --version
-   ```
-   or
-   ```bash
-   python3 --version
-   ```
-
-3. **Check tkinter Installation** (optional)
-   ```bash
-   python -m tkinter
-   ```
-   A small window should appear if tkinter is installed.
-
-4. **No Additional Dependencies Required!**
-   This project uses only Python standard library modules.
-
----
-
-## 🎯 How to Run
-
-### Method 1: Run Directly
-```bash
-python main.py
-```
-
-### Method 2: Python3 (Linux/Mac)
-```bash
-python3 main.py
-```
-
-### Method 3: Double-Click (Windows)
-- Simply double-click `main.py` file
-- Or create a shortcut to `main.py`
-
-### Method 4: Create Executable (Optional)
-
-**Install PyInstaller:**
-```bash
-pip install pyinstaller
-```
-
-**Create Executable:**
-```bash
-pyinstaller --onefile --windowed --name SudokuGame main.py
-```
-
-The executable will be in the `dist/` folder.
-
----
 
 ## 🎮 How to Play
 
@@ -182,23 +115,7 @@ The executable will be in the `dist/` folder.
 - ⏱️ **No time limit** - Take your time and think strategically
 - 💾 **Save your progress** - Come back to difficult puzzles later
 
----
 
-## 📁 Project Structure
-
-```
-sudoku_game/
-│
-├── main.py              # Application entry point
-├── engine.py            # Core game logic and algorithms
-├── gui.py               # Graphical user interface (Tkinter)
-├── addons.py            # Additional features (timer, hints, save/load)
-│
-├── README.md            # This file
-├── LICENSE              # License information
-│
-└── sudoku_save.json     # Auto-generated save file (created when you save)
-```
 
 ### File Descriptions
 
@@ -322,16 +239,6 @@ Before committing changes, verify:
 
 #### **Issue 1: ModuleNotFoundError: No module named 'tkinter'**
 
-**Solution (Ubuntu/Debian):**
-```bash
-sudo apt-get install python3-tk
-```
-
-**Solution (macOS):**
-```bash
-brew install python-tk
-```
-
 **Solution (Windows):**
 Reinstall Python and ensure "tcl/tk and IDLE" is checked during installation.
 
@@ -399,50 +306,9 @@ rm sudoku_save.json
 **Solution:**
 Click the "Dark/Light" button twice to refresh the theme properly.
 
----
-
-## 🚀 Future Enhancements
-
-### Planned Features
-- [ ] **Difficulty Levels** - Easy, Medium, Hard, Expert
-- [ ] **Puzzle Generator** - Create random valid Sudoku puzzles
-- [ ] **Statistics Tracking** - Win rate, average solve time
-- [ ] **Leaderboard** - Compare times with friends
-- [ ] **Undo/Redo** - Reverse moves
-- [ ] **Auto-Save** - Automatic save every N minutes
-- [ ] **Multiple Puzzles** - Built-in puzzle database
-- [ ] **Pencil Marks** - Note possible numbers in cells
-- [ ] **Sound Effects** - Audio feedback for actions
-- [ ] **Animations** - Smooth transitions
-
-### Possible Improvements
-- [ ] Mobile version (using Kivy or web-based)
-- [ ] Multi-language support
-- [ ] Online multiplayer mode
-- [ ] Daily challenges
-- [ ] Achievements system
-- [ ] Tutorial mode for beginners
-- [ ] AI difficulty adaptation
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-### Reporting Bugs
-1. Check if bug already exists in Issues
-2. Create new issue with:
-   - Clear description
-   - Steps to reproduce
-   - Expected vs actual behavior
-   - Screenshots (if applicable)
-   - Your OS and Python version
-
-### Suggesting Features
-1. Open an issue with "Feature Request" label
-2. Describe the feature and its benefits
-3. Provide examples or mockups if possible
 
 ### Submitting Pull Requests
 1. Fork the repository
@@ -467,7 +333,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ```
 MIT License
-Copyright (c) 2026 Pasindu Eshan
+Copyright (c) 2026 Maths Group C 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -494,7 +360,12 @@ SOFTWARE.
 ## 👏 Credits
 
 ### Developer
-- **Your Name** - Initial development and design
+ **Minaga Sanviru** - Leader / Engine.
+ **Pasidu Eshan** - Gui 
+ **Sachin ** - Gui 
+ **Riveen Perera ** - Controls 
+ ** Chalaka Fernando ** - Controls 
+- 
 
 ### Technologies Used
 - **Python 3** - Programming language
@@ -519,7 +390,6 @@ This project was created as part of a Mathematics for Computing course, combinin
 ## 📞 Contact & Support
 
 ### Questions or Issues?
-- **Email:** your.email@example.com
 - **GitHub Issues:** [Create an issue](https://github.com/pasindu0720/sudoku-game/issues)
 - **Discussions:** [Join discussions](https://github.com/pasindu0720/sudoku-game/discussions)
 
@@ -535,7 +405,7 @@ This project was created as part of a Mathematics for Computing course, combinin
 - **Lines of Code:** ~500
 - **Files:** 4 main modules
 - **Dependencies:** Standard library only
-- **Platform:** Cross-platform (Windows, macOS, Linux)
+- **Platform:** Cross-platform (Windows)
 
 ---
 
