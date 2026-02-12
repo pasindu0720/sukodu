@@ -103,9 +103,9 @@ def reset_board():
 
 def check_solution():
     if is_complete_and_correct():
-        messagebox.showinfo("Sudoku","🎉 You solved it!")
+        messagebox.showinfo("Sudoku"," You solved it!")
     else:
-        messagebox.showerror("Sudoku","❌ Not solved yet")
+        messagebox.showerror("Sudoku"," Not solved yet")
 
 # -----------------
 # Draw Sudoku Grid
@@ -143,4 +143,5 @@ tk.Button(control_frame,text="Dark / Light",command=toggle_theme).grid(row=0,col
 # Initialize Theme
 # -----------------
 apply_theme()
+
 root.mainloop()
